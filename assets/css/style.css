@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    font-family: 'PT Sans', sans-serif;;
+}
+
+header a {
+    color: rgb(140, 147, 174);
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-greeting {
+    font-size: 3.5rem;
+}
+
+.image-home {
+    width: 30vw;
+}
+
+/* Component Card */
+.card-img-top {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-img-full {
+    border-radius: 5px;
+}
+
+.text-img-full button {
+    bottom: 0;
+}
+
+.button-bottom-left {
+    bottom: 15px;
+    left: 15px;
+}
+
+.card-image-person {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .image-home {
+        display: none;
+    }
+
+    .text-home {
+        text-align: center;
+    }
+}
